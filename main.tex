@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{textwidth=7cm}
+\DeclareMathOperator{\Mr}{M_{\mathbb{R}}}
+
+\begin{document}
+Examples of mathematical operators
+
+\[
+\sin(a + b ) = \sin(a)\cos(b) + \cos(b)\sin(a)
+\]
+
+$$ 
+f(x) = \left\{
+\begin{array}{c l}
+ -300 & x \in [-250,-150)\\
+ 2x & x \in [-150,0)\\
+ 100*seno(\frac{x}{2}) & x \in [0,150)\\
+ 200*coseno(\frac{x}{2}) & x \in [150,250)
+\end{array}
+\right.
+$$
+
+\vspace{1cm}
+
+Testing notation for limits
+
+\[
+\lim_{h \rightarrow 0 } \frac{f(x+h)-f(x)}{h}
+\]
+
+This operator changes when used alongside 
+text \( \lim_{x \rightarrow h} (x-h) \).
+
+\vspace{1cm}
+
+User-defined operator for matrices with Real entries
+
+\[
+x \in \Mr
+\]
+
+\end{document}
